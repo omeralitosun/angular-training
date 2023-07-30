@@ -1,0 +1,8 @@
+<h1>{{title}}</h1>
+<div class="list-group">
+    <a class="list-group-item" href="">Tüm Ürünler</a>
+</div>
+
+<div class="list-group" *ngFor="let cat of categories">
+    <a class="list-group-item" href="">{{cat.name}}</a>
+</div>
